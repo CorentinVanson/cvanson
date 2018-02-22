@@ -1,11 +1,11 @@
-{
+﻿{
   "name": "cvanson",
   "version": "1.0.0",
   "description": "Le CV numérique de Corentin Vanson",
   "author": "Corentin Vanson",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js --port 80",
     "start": "npm run dev",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "test": "npm run unit",
